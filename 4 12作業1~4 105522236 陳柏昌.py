@@ -26,7 +26,7 @@ for i in range(9,0,-2):
 print()
 
 #第四個作業
-for i in range(1,100):
+for i in range(1,101):
     if i % 2 !=0 or i ==2:
         if i % 3 !=0 or i ==3:
             if i % 5 !=0 or i ==5:
