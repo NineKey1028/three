@@ -70,9 +70,8 @@ for i in range(0,n):
     a[i].append(1)
 txt = ""
 for k in range(n):
-    for h in range(k):
+    for h in range(k+1):
         txt += str(a[k][h])+" "
-    txt += "1"
     print("{:^50}".format(txt))
     txt = ""
 #一維串列
