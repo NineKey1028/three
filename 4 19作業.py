@@ -57,6 +57,7 @@ print("反轉內容：",a)
 作業三。額外練習題
 巴斯卡三角形 ，請用一簡串來處理
 '''
+#二維串列
 print("{:^45}".format("巴斯卡三角形"))
 n = 6
 a =[]
@@ -74,6 +75,26 @@ for k in range(n):
     txt += "1"
     print("{:^50}".format(txt))
     txt = ""
-
-
+#一維串列
+n = 5
+a = []
+c = []
+b = 0
+g = 2
+txt = ""
+print("{:^50}".format(1))
+for i in range(n):
+    a.append(1)
+    for h in range(0,i):
+        b +=1
+        a.append(c[b]+c[h])
+    b = 0
+    a.append(1)    
+    txt = ""
+    for k in range(g):
+        txt += str(a[k])+" "
+    print("{:^50}".format(txt))
+    g += 1
+    c = a
+    a =[]
 
